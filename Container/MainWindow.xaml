@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="418" Width="306">
 
-    <!--Der ScrollViewer zweigt automatisch eine ScrollBar an, wenn der Content des ScrollViewers im Fenster nicht mehr vollständig
+    <!--Der ScrollViewer zeigt automatisch eine ScrollBar an, wenn der Content des ScrollViewers im Fenster nicht mehr vollständig
         sichtbar ist-->
     <ScrollViewer VerticalScrollBarVisibility="Auto"
                   HorizontalScrollBarVisibility="Visible">
