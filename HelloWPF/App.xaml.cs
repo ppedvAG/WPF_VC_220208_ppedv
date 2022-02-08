@@ -15,12 +15,16 @@ namespace HelloWPF
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            base.OnStartup(e);  
+            base.OnStartup(e);
+
+            //Dieser Code wird bei Start der App ausgeführt
         }
 
         protected override void OnExit(ExitEventArgs e)
         {
             base.OnExit(e);
+
+            //Dieser Code wird beim Schließen der App ausgeführt
         }
     }
 }
