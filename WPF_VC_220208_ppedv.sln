@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M01_HelloWPF", "HelloWPF\M01_HelloWPF.csproj", "{55026807-DB47-4BF2-80B1-B3C187643A89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M01_HelloWPF", "HelloWPF\M01_HelloWPF.csproj", "{55026807-DB47-4BF2-80B1-B3C187643A89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M02_Controls", "Controls\M02_Controls.csproj", "{9E24C697-0443-4C78-93F2-2A3EF265AE09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M02_Controls", "Controls\M02_Controls.csproj", "{9E24C697-0443-4C78-93F2-2A3EF265AE09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personendatenbank", "Personendatenbank\Personendatenbank.csproj", "{E4714C9C-7D5B-4C6A-9EF4-0A590E7292F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personendatenbank", "Personendatenbank\Personendatenbank.csproj", "{E4714C9C-7D5B-4C6A-9EF4-0A590E7292F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M03_Container", "Container\M03_Container.csproj", "{21A8BB95-4E89-4A84-8A76-F2EA46C08515}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M03_Container", "Container\M03_Container.csproj", "{21A8BB95-4E89-4A84-8A76-F2EA46C08515}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M04_EventHandling", "EventHandling\M04_EventHandling.csproj", "{869ECF1B-57EE-49F4-ABDE-644714DB8491}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M04_EventHandling", "EventHandling\M04_EventHandling.csproj", "{869ECF1B-57EE-49F4-ABDE-644714DB8491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyBinding", "PropertyBinding\PropertyBinding.csproj", "{B729FF35-C6A7-435D-A4F3-8D1DE052173F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{869ECF1B-57EE-49F4-ABDE-644714DB8491}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{869ECF1B-57EE-49F4-ABDE-644714DB8491}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{869ECF1B-57EE-49F4-ABDE-644714DB8491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B729FF35-C6A7-435D-A4F3-8D1DE052173F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B729FF35-C6A7-435D-A4F3-8D1DE052173F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B729FF35-C6A7-435D-A4F3-8D1DE052173F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B729FF35-C6A7-435D-A4F3-8D1DE052173F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
