@@ -13,7 +13,7 @@ namespace ColorPicker
     {
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {
-            return new SolidColorBrush(Color.FromArgb((byte)(double)values[3], (byte)(double)values[0], (byte)(double)values[1], (byte)(double)values[2]));
+            return new SolidColorBrush(Color.FromArgb(System.Convert.ToByte(values[3]), (byte)(double)values[0], (byte)(double)values[1], (byte)(double)values[2]));
         }
 
         public object[] ConvertBack(object value, Type[] targetTypes, object parameter, CultureInfo culture)

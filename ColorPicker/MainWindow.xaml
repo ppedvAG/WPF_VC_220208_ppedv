@@ -70,7 +70,7 @@
         <Border BorderBrush="Black" BorderThickness="1" 
                 Width="100" Height="100"
                 Grid.Row="5" Grid.ColumnSpan="3">
-            <Rectangle x:Name="Rct_Output_2" Width="100" Height="100">
+            <Rectangle x:Name="Rct_Output_2">
                 <Rectangle.Fill>
                     <MultiBinding>
 
