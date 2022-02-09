@@ -61,7 +61,7 @@ namespace ResourcenStyles {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Klick Mich!!! ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Klick Mich Auch!!! ähnelt.
         /// </summary>
         public static string meinButtonString {
             get {

@@ -19,7 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M06_DataBinding", "DataBinding\M06_DataBinding.csproj", "{96CC39D6-2B00-482F-A455-D4711FDE2A56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourcenStyles", "ResourcenStyles\ResourcenStyles.csproj", "{0DD79B20-B17F-4A9A-B1CB-4F74B99D2701}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M07_ResourcesStyles", "ResourcenStyles\M07_ResourcesStyles.csproj", "{0DD79B20-B17F-4A9A-B1CB-4F74B99D2701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M08_Templates", "Templates\M08_Templates.csproj", "{3E772A0E-3674-4DF9-B8DC-DBB9BA936C4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{0DD79B20-B17F-4A9A-B1CB-4F74B99D2701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DD79B20-B17F-4A9A-B1CB-4F74B99D2701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DD79B20-B17F-4A9A-B1CB-4F74B99D2701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E772A0E-3674-4DF9-B8DC-DBB9BA936C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E772A0E-3674-4DF9-B8DC-DBB9BA936C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E772A0E-3674-4DF9-B8DC-DBB9BA936C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E772A0E-3674-4DF9-B8DC-DBB9BA936C4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

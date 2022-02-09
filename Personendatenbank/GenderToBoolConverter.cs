@@ -8,7 +8,7 @@ using System.Windows.Data;
 
 namespace Personendatenbank
 {
-    internal class GenderToBool : IValueConverter
+    internal class GenderToBoolConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
