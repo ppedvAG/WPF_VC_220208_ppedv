@@ -21,21 +21,30 @@ namespace Trigger
     /// </summary>
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler? PropertyChanged;
+        public event PropertyChangedEventHandler PropertyChanged;
 
+        //Property, auf die der DataTrigger reagiert
         private bool boolVal;
-        public bool BoolVal { get => boolVal; set { boolVal = value; PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(BoolVal))); } }
-
+        public bool BoolVal
+        {
+            get { return boolVal; }
+            //Setter mit Event-Wurf
+            set { boolVal = value; PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(BoolVal))); }
+        }
 
 
         public MainWindow()
         {
             InitializeComponent();
 
+            this.BoolVal = true;
+
+            //Setzen des DataContext
             this.DataContext = this;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        //EventHandler zum Ändern der Property
+        private void Btn_Ändern_Click(object sender, RoutedEventArgs e)
         {
             BoolVal = !BoolVal;
         }
