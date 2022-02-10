@@ -50,7 +50,8 @@ namespace Trigger
             BoolVal = !BoolVal;
         }
 
-        private void Cpr_Show_Tap(object sender, RoutedEventArgs e)
+        //EventHandler des UserControls (vgl. M11_UserControls)
+        private void ColorPicker_Tap(object sender, RoutedEventArgs e)
         {
             MessageBox.Show((sender as ColorPicker).PickedColor.ToString());
         }
