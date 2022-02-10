@@ -14,13 +14,13 @@ namespace Personendatenbank
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            PropertyInfo[] props = (parameter as ObjectDataProvider).Data as PropertyInfo[];
+            PropertyInfo[] props = (parameter as ObjectDataProvider)?.Data as PropertyInfo[];
 
             Color color = (Color)value;
 
-            for (int i = 0; i < props.Length; i++)
+            for (int i = 0; i < props?.Length; i++)
             {
-                var color2 = props[i].GetGetMethod().Invoke(new object(), new object[] { });
+                var color2 = props[i]?.GetGetMethod()?.Invoke(new object(), new object[] { });
                 if (color.Equals(color2))
                     return i;
             }
@@ -30,7 +30,7 @@ namespace Personendatenbank
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            return ((parameter as ObjectDataProvider).Data as PropertyInfo[])[(int)value].GetGetMethod().Invoke(new object(), new object[] { });
+            return ((parameter as ObjectDataProvider)?.Data as PropertyInfo[])?[(int)value]?.GetGetMethod()?.Invoke(new object(), new object[] { });
         }
     }
 }
