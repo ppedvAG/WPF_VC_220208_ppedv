@@ -23,11 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M07_ResourcesStyles", "Reso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M08_Templates", "Templates\M08_Templates.csproj", "{3E772A0E-3674-4DF9-B8DC-DBB9BA936C4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M09_Validation", "Validation\M09_Validation.csproj", "{5DCD93FD-0F05-4C0A-B962-7F7C243C10A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M09_Validation", "Validation\M09_Validation.csproj", "{5DCD93FD-0F05-4C0A-B962-7F7C243C10A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M10_Trigger", "Trigger\M10_Trigger.csproj", "{50A0498C-9B39-4DF1-B969-CE647A40BEEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M10_Trigger", "Trigger\M10_Trigger.csproj", "{50A0498C-9B39-4DF1-B969-CE647A40BEEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M11_UserControls", "UserControls\M11_UserControls.csproj", "{5866ACDB-BA99-40D5-BB0C-72E1DA1FA98E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M11_UserControls", "UserControls\M11_UserControls.csproj", "{5866ACDB-BA99-40D5-BB0C-72E1DA1FA98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commands", "Commands\Commands.csproj", "{6F443005-D52D-4192-A21A-344543CB3C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{6E5E0FF9-A707-4A41-B863-3439F8E055CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{5866ACDB-BA99-40D5-BB0C-72E1DA1FA98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5866ACDB-BA99-40D5-BB0C-72E1DA1FA98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5866ACDB-BA99-40D5-BB0C-72E1DA1FA98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F443005-D52D-4192-A21A-344543CB3C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F443005-D52D-4192-A21A-344543CB3C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F443005-D52D-4192-A21A-344543CB3C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F443005-D52D-4192-A21A-344543CB3C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5E0FF9-A707-4A41-B863-3439F8E055CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5E0FF9-A707-4A41-B863-3439F8E055CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5E0FF9-A707-4A41-B863-3439F8E055CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5E0FF9-A707-4A41-B863-3439F8E055CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
